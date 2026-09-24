@@ -1,0 +1,40 @@
+{
+  "name": "ApexPose AI — Фитнес с ИИ",
+  "short_name": "ApexPose",
+  "description": "AI-тренер с распознаванием упражнений через камеру",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#080811",
+  "theme_color": "#080811",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Начать тренировку",
+      "short_name": "Тренинг",
+      "url": "./index.html?screen=train",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "План на неделю",
+      "short_name": "План",
+      "url": "./index.html?screen=plan",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
